@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grd3 Access</title>
+</head>
+<body>
+    <input id="url"><input type="submit" value="Go!" onclick="access()">
+</body>
+<script>
+    function access(){
+        url = document.getElementById("url")
+        location.href="gco/"+url.value;
+    }
+</script>
+</html>
